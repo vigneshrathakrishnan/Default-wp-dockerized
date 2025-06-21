@@ -1,0 +1,39 @@
+# Ignore Docker volumes and DB data
+db_data/
+*.sql
+
+# Ignore environment file if you're using secrets
+# .env
+
+# WordPress core files (optional if only using wp-content)
+wordpress/
+wp/
+
+# Node/npm artifacts (in case you use npm for themes/plugins)
+node_modules/
+npm-debug.log
+
+# Logs
+*.log
+logs/
+docker-logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (if used)
+.vscode/
+
+# Backup files and editor temp files
+*~
+*.bak
+*.swp
+*.tmp
+*.swo
+
+# Ignore vendor if using Composer for plugins/themes
+/vendor/
+
+# Ignore WP uploads if you add uploads dir
+wp-content/uploads/
